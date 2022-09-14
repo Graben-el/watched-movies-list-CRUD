@@ -6,7 +6,9 @@ I'm implementing it using React.JS and its resources like styled-components, con
 
 # Features I intend to implement
 
-1 - Basics function of a regular CRUD using Firebase 
-2 - A layout for displaying the collection of movies using React JS
-3 - A login system to create unique accounts
-4 - Link user to specific collection that can be manipulated only when logged in
+<ul>
+    <li>1 - Basics function of a regular CRUD using Firebase
+    <li>2 - A layout for displaying the collection of movies using React JS
+    <li>3 - A login system to create unique accounts
+    <li>4 - Link user to specific collection that can be manipulated only when logged in
+</ul>
