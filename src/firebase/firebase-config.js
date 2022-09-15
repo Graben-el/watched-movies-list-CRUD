@@ -1,6 +1,5 @@
-import { initializeFirebase } from 'firebase/app'
-import { getFirestore } from '@firebase/firebase'
-import { getAnalytics } from 'firebase/analytics'
+import { initializeApp } from 'firebase/app'
+import { getFirestore } from '@firebase/firestore'
 
 // Add variable with the database configuration
 const firebaseConfig = {
@@ -14,7 +13,6 @@ const firebaseConfig = {
   };
 
 // Initialize firebase
-const app = initializeFirebase(firebaseConfig)
-const analytics = getAnalytics(app)
+const app = initializeApp(firebaseConfig)
 // Variable to reference the database
 export const db = getFirestore(app)
